@@ -1,2 +1,2 @@
-# Queue-Data-Structure
-Code for the queue data structure in Java
+# Data-Structure
+Code for the some data structures in Java
