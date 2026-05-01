@@ -1,6 +1,6 @@
 package Github;
 
-public class Main {
+public class Queue_Main {
     public static void main(String[] args) {
 
         Queue node = new Queue();
