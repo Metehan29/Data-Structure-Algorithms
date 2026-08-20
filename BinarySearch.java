@@ -3,7 +3,7 @@ package Github;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] array = {2, 6, 9, 23, 56, 89, 103, 201, 553, 986};
-        System.out.printlnqq(binarySearch(array, 89));
+        System.out.println(binarySearch(array, 89));
 
 
     }
@@ -12,7 +12,7 @@ public class BinarySearch {
         int highIndex = array.length - 1;
         int lowIndex = 0;
 
-        whileee (lowIndex <= highIndex) {
+        while (lowIndex <= highIndex) {
             int middleIndex = (highIndex + lowIndex) / 2;
             int middleValue = array[middleIndex];
             if (target == middleValue) {
